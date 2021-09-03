@@ -102,15 +102,15 @@ esitysmuoto     70 = 0100 0110 = 0x46
 Kun vakiolisäyksenä käytetään 2<sup>n-1</sup>-1 (missä n on bittien lukumäärä), niin esitystavalla on kaksikin etua. Ensinnäkin, positiivisilla ja negatiivisilla luvuilla on suunnilleen yhtä iso arvoalue. Toiseksi, vasemmanpuolimmainen bitti toimii myös etumerkkinä. Toisin kuin aikaisemmissa esitysmuodoissa, etumerkkibitin arvo 0 indikoi nyt negatiivista lukua ja arvo 1 positiivista lukua.
 
 <!-- Quizes 3.2.1-7  -->
-<div><quiz id="375990c8-233a-49d9-8a1a-1c4de6552102"></quiz></div>
-<div><quiz id="7edb61d9-50bd-4dd1-8dca-40def4ef82b6"></quiz></div>
-<div><quiz id="4794a28b-2d8f-439b-a43c-249aae239a8f"></quiz></div>
-<div><quiz id="5ce00140-3b1c-4e6f-8779-2f7e59c74114"></quiz></div>
-<div><quiz id="b579ddc4-9083-4c4b-9b63-efe4d3c39b36"></quiz></div>
-<div><quiz id="b0ba58b5-8cbb-4d06-84e6-e99e06e54d92"></quiz></div>
-<div><quiz id="486877da-2e16-40d7-9c87-250701685130"></quiz></div>
-<div><quiz id="4b7eda3e-300d-41d6-8d6e-269b2f51a80f"></quiz></div>
-<div><quiz id="322209ef-1fe8-4951-b190-19a2f358d768"></quiz></div>
+<div><quiz id="6c89c73d-36bd-5683-bd8b-deedb28680af"></quiz></div>
+<div><quiz id="4d1e932e-96b3-5e2c-b720-19c935c051ee"></quiz></div>
+<div><quiz id="ff69658a-ed61-55b5-8ec0-544b4b1ceb4a"></quiz></div>
+<div><quiz id="3d4935a0-276d-5c46-840a-41cb684d8481"></quiz></div>
+<div><quiz id="431d4560-c78f-547b-8e18-f705079f8ffb"></quiz></div>
+<div><quiz id="5ca9ba24-b6b9-5e9a-8cd9-b466a8680ac1"></quiz></div>
+<div><quiz id="f6b69f98-3978-508c-881e-35c77b53c310"></quiz></div>
+<div><quiz id="b8888afc-f4b5-5af3-a684-389e7bc016b7"></quiz></div>
+<div><quiz id="2d259e50-c213-52a4-b74c-dd73b924592e"></quiz></div>
 
 <text-box variant="example" name="Tärkeitä termejä">
 
@@ -199,9 +199,9 @@ Normalisointi asettaa omat rajoituksensa sille, kuinka pieniä liukulukuja voi e
 Huonona puolena tällaisissa (itseisarvoltaan) hyvin pienissä luvuissa on esitystarkkuuden heikentyminen. Edellisessä esimerkissä merkitseviä bittejä on vain 17, kun normaalisti liukulukujen tarkkuus on 24 bittiä. Jokainen nollabitti ei-normalisoidun mantissan alussa puolittaa lukutarkkuuden.
 
 <!-- Quizes 3.2.8-10 -->
-<div><quiz id="3d9a0c24-2735-4497-a25b-1f8056d5a74b"></quiz></div>
-<div><quiz id="319f4fcc-1f95-4609-bb14-fdc1018664da"></quiz></div>
-<div><quiz id="318a93cf-1f88-42e3-97c3-fd56fa0d2ac2"></quiz></div>
+<div><quiz id="4b8be024-2ab5-584f-b1a2-cf5f6db9e1a3"></quiz></div>
+<div><quiz id="2e49679e-bfd4-51b4-925a-5710b85f7da4"></quiz></div>
+<div><quiz id="f7d141fa-1bed-5e52-93b9-1a01580de869"></quiz></div>
 
 ### Liukulukulaskenta
 Liukulukulaskenta on hieman erilaista kuin mitä koulussa on opittu reaalilukulaskennasta. Esimerkkinä tarkastellaan tilannetta, jossa muuttujan X arvo on 1.0 ja muuttujan Y arvo on 0.00000001. Jos laskemme nämä luvut yhteen (Z=X+Y), niin reaaliluvuilla laskettaessa summan pitäisi olla 1.00000001. Liukuluvuilla (IEEE:n 32-bittinen standardi) laskettaessa tulos on kuitenkin 1.0, koska Y:n bitit jäävät pois normeeratussa 24 bitin esitysmuodossa.

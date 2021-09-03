@@ -106,10 +106,10 @@ Suorittimen sisällä on oma sisäinen väylä (tai usea) tiedonsiirtoon sen eri
 
 <!-- quiz 2.1.1-7: Väitteet suorittimesta, muistista ja väylästä -->
 
-<div><quiz id="d919dfbb-8a2e-416e-8e00-6f04e481e05f"></quiz></div>
-<div><quiz id="2cf1fbb4-1c9b-44de-b7fb-e5d638278f29"></quiz></div>
-<div><quiz id="1d1617a3-b920-4bbc-8702-94bd212d42cd"></quiz></div>
-<div><quiz id="f7cf706c-9db9-4cd5-b992-7eb910f02b29"></quiz></div>
-<div><quiz id="1fbc5db9-c9fd-4cbd-a8fe-a2499f5aabdf"></quiz></div>
-<div><quiz id="2e967021-1da6-4ea1-9788-ee3c4d3f8ccf"></quiz></div>
-<div><quiz id="287717fc-19c1-4559-97d5-ceed5ce9f3ef"></quiz></div>
+<div><quiz id="c163d5dc-dba4-57fb-b8ad-9899fa5bea89"></quiz></div>
+<div><quiz id="467b18ec-3f80-5f91-b8f6-10f59d19d2e1"></quiz></div>
+<div><quiz id="904139ad-f905-57ca-918c-97b525a7f123"></quiz></div>
+<div><quiz id="99be7354-49f2-5b21-92de-63176120ba1b"></quiz></div>
+<div><quiz id="e453bf3c-242c-5848-90c0-07c64263e660"></quiz></div>
+<div><quiz id="f58b9155-ec9d-596a-b7f2-8fa0f0cab6e4"></quiz></div>
+<div><quiz id="587810ec-0aa6-585a-b915-9c8368d41484"></quiz></div>

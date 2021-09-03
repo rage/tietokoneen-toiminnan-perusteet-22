@@ -35,14 +35,14 @@ Kurssi on suunniteltu sillä ajatuksella, että opiskelijat tekevät kaikki teht
 Yhdessä oppiminen on hauskempaa ja usein tehokkaampaa kuin yksin puurtaminen. Molemmat hyötyvät siitä. Toinen saa neuvoa asiassa, jota ei ollut hyvin sisäistänyt. Toinen taas oppii materiaalin entistä paremmin, kun hänen pitää jäsentää asia sen toiselle selittämisen vaativaan muotoon. Älä kuitenkaan neuvo liikaa, jotta et vahingossa pilaa toisen oppimismahdollisuuksia. Syvällisempi oppiminen tapahtuu asioita itse pohtiessa. Jos annat johonkin tehtävään suoraan oikean vastauksen toiselle, niin tällöin hän ei juurikaan opi tehtävästä, vaikka saisikin itsepetollista tyydytystä muka oikein osatusta tehtävästä. Tämä voi haitata oppimista myöhemmin, kun vaikeammissa asioiden selittämisessä on otaksuttu, että aikaisempi oppimateriaali olisi ymmärretty. Vaatii taitoa neuvoa sopivasti mutta ei liikaa.
 
 <!-- Quiz 1.1.1-8 Onko tämä tietokone -->
-<div> <quiz id="42876626-2a58-41c0-848a-22055b7b2f2e"> </quiz> </div>
-<div> <quiz id="2b527d6f-1b92-4da1-8db7-dd898255c316"> </quiz> </div>
-<div> <quiz id="70a9c72c-47b5-427a-8070-399cd69bd914"> </quiz> </div>
-<div> <quiz id="304a554c-1ebc-45a2-81e8-f6f1577c5e79"> </quiz> </div>
-<div> <quiz id="60717959-3d62-44e1-9bfd-315178d30d24"> </quiz> </div>
-<div> <quiz id="67f7f15e-422c-475b-892e-352a9c8ffb65"> </quiz> </div>
-<div> <quiz id="60065050-3d1e-4199-8838-311aac605a0b"> </quiz> </div>
-<div> <quiz id="5aad6cd8-39b6-4d52-ab6e-2e5ea9f9c3bf"> </quiz> </div>
+<div> <quiz id="cd888b02-80e0-546f-bc41-31cdc6a29855"> </quiz> </div>
+<div> <quiz id="8b91ca34-eeb0-5696-9664-f03f55334e06"> </quiz> </div>
+<div> <quiz id="b72cfb7b-765d-5214-96d6-9beff663d167"> </quiz> </div>
+<div> <quiz id="66522170-bc3e-5010-a775-e945db1d47ce"> </quiz> </div>
+<div> <quiz id="56b11293-69ae-5a20-b9b4-92d09a2e4fc0"> </quiz> </div>
+<div> <quiz id="d1f85cde-0208-54c5-93b3-764235169ef5"> </quiz> </div>
+<div> <quiz id="49aff8fa-c9ac-5ea8-9a05-bfbc1970d66f"> </quiz> </div>
+<div> <quiz id="a06cf94c-15ba-5881-8681-26d47c65d360"> </quiz> </div>
 
 ## Tietokoneen osat
 Minkälaisia laitteita tietokoneessa on? Tietokoneen osat voi karkeasti ottaen jakaa kolmeen luokkaan: laitteiston sisäiset osat tai laitteet, muiden tietokoneiden kanssa kommunikoivat laitteet ja ihmisen kanssa kommunikoivat laitteet. Ainoastaan _suoritin_ ja _muisti_ ovat ohjelman suorituksen aikana välttämättömiä, ja kaikkia muita laitteita kutsutaan sen vuoksi yleisnimellä _oheislaite_. Järjestelmän käynnistystiedot on talletettu jonkinlaiseen massamuistiin, jossa tieto säilyy ilman sähkövirtaa. Massamuistit ovat myös oheislaitteita. Eri tietokoneissa on vain niiden omiin käyttötarkoituksiin sopivat osat ja osien välinen tiedonsiirto on toteutettu erilaisten väylien kautta. Väylät taas ovat pohjimmiltaan joukko sähköjohtoja, joiden kautta tieto kulkee ykkösinä ja nollina.
@@ -150,15 +150,15 @@ Väylään liitetty laite tiedon tallennukseen tai keräämiseen, tai kommunikoi
 
 <!-- quiz 1.1.11-22 Pitääkö tietokoneessa olla tämä laite? -->
 
-<div><quiz id="323c413b-1ff9-444a-958d-19b05b50bfc4"></quiz></div>
-<div><quiz id="4ec3fcc6-3221-4eec-a3dd-28474563e239"></quiz></div>
-<div><quiz id="1c73d15a-b517-4e45-ae0d-917f4e23d6d3"></quiz></div>
-<div><quiz id="327224ac-201b-4912-9e2c-19cbe9e4a49a"></quiz></div>
-<div><quiz id="271b1f5a-f8e6-4957-8c36-c7f9f0c1b411"></quiz></div>
-<div><quiz id="1fdf16d3-cada-4cd0-abbe-a2fb2f998e35"></quiz></div>
-<div><quiz id="2df791d7-1d41-4cc5-b8f4-eb0fe5536d24"></quiz></div>
-<div><quiz id="249c9e4e-e906-4a57-adc8-bb38d16beb5d"></quiz></div>
-<div><quiz id="41ab19b2-29cb-4e4e-a842-2194b3fd03ee"></quiz></div>
-<div><quiz id="2ce514ef-1c93-417c-97a9-e5943ed1320e"></quiz></div>
-<div><quiz id="2f3133b7-1e09-46b1-a345-f153b8241daf"></quiz></div>
-<div><quiz id="3c79fb64-267d-4f09-836c-1eed07ed8d4f"></quiz></div>
+<div><quiz id="acdc66d2-693e-5981-b524-15cc5516c6a6"></quiz></div>
+<div><quiz id="60397b38-9962-5be6-8546-93325feee5a2"></quiz></div>
+<div><quiz id="1448a1d0-0fac-55db-83fe-d398331d6976"></quiz></div>
+<div><quiz id="08709098-ab0d-59a0-8084-8e59dbc3ed30"></quiz></div>
+<div><quiz id="270877fa-71d3-5ab9-a70a-3c58faacf35f"></quiz></div>
+<div><quiz id="686de5a0-b4ca-582e-b694-3725f17f13c5"></quiz></div>
+<div><quiz id="8f16fc69-4b18-516d-a067-0b6cceeff230"></quiz></div>
+<div><quiz id="0e9110e8-7156-5ad9-bce1-f8c83de1c030"></quiz></div>
+<div><quiz id="b419faf3-e7cb-5963-8bc4-6c5df740fe7b"></quiz></div>
+<div><quiz id="44dddb4d-5d42-5de8-9b2a-a6ac5d9356c2"></quiz></div>
+<div><quiz id="27dbc1cd-3997-576b-9a1f-acb46c2e067d"></quiz></div>
+<div><quiz id="643d6bac-b6a0-50b3-87bf-fa8b0f20d3ea"></quiz></div>

@@ -116,6 +116,6 @@ Emme käsittele tällä tavoin talletettuja linkitettyjä tietorakenteita tämä
 
 <!-- Quizes 3.3.10-13  -->
 
-<div><quiz id="28079e7b-fec7-4d52-a57d-ccb35089f339"></quiz></div>
-<div><quiz id="1d21f005-b96c-4203-b6be-94f9b3de5f3d"></quiz></div>
-<div><quiz id="1d44af70-ba49-4499-a0b5-95ab646c3533"></quiz></div>
+<div><quiz id="47264162-1272-57bb-83dc-5c06aca00d49"></quiz></div>
+<div><quiz id="c3c7e889-f359-5896-9ef5-65c9ad38baf4"></quiz></div>
+<div><quiz id="a2b83353-3b6e-5b50-bd1d-12bf45f84cc3"></quiz></div>

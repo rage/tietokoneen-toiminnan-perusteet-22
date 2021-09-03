@@ -124,13 +124,13 @@ Edellä olevissa esimerkeissä on vähän erikoista esitystavasta aiheutuva esit
 Tietokoneille on tyypillistä, että esitystavan vuoksi lukujen tarkkuus näyttää olevan parempi kuin todellisuudessa onkaan. Jos data talletetaan 32-bittisenä, siellä on aina 32-bittiä tietoa, vaikka osa niistä olisikin puppua! Laskennan lopputulos on todellisuudessa aina korkeintaan yhtä tarkka kuin alkuperäiset operandit, ja yleensä epätarkempi. Ei siis pidä sokeasti luottaa tietokoneiden antamiin lopputuloksiin.
 
 <!-- Quizes 3.1.1-7 -->
-<div><quiz id="245cabc3-e76f-4a2a-a58d-b9f1cf4f0441"></quiz></div>
-<div><quiz id="673b57d2-41b4-46b9-94ab-34ca2acf6d06"></quiz></div>
-<div><quiz id="4002a5ec-28bd-4bd5-acc9-20bba69256d1"></quiz></div>
-<div><quiz id="4432ae80-2b68-410b-8ef4-22dfdb6c8454"></quiz></div>
-<div><quiz id="2ff84dca-1e88-4246-9fde-f54dde433ebf"></quiz></div>
-<div><quiz id="586a4f04-3846-43cd-bc4f-2d3685548b57"></quiz></div>
-<div><quiz id="3ce2af9c-26c0-494d-80de-1f2292d212b8"></quiz></div>
+<div><quiz id="2fb6fa75-d93e-51f2-8515-82983ed1679c"></quiz></div>
+<div><quiz id="a373a28c-36fa-5c38-bc4b-4abaea1d7351"></quiz></div>
+<div><quiz id="306eef36-0ad4-5810-bfa9-237e9d7e5699"></quiz></div>
+<div><quiz id="0edc8033-30ba-52cd-8118-d99d11414d55"></quiz></div>
+<div><quiz id="ab27b753-866d-516b-890e-9ecae0f8a9f6"></quiz></div>
+<div><quiz id="2dbcbd58-96f3-5a21-b18b-e35a1d100c40"></quiz></div>
+<div><quiz id="3c0cb868-dc7b-5fe5-8954-d03f9e05e08b"></quiz></div>
 
 ## Heksadesimaalijärjestelmä
 Bittien informaatioarvo on pieni, joten niitä tarvitaan paljon. Niiden kirjoittaminen ja lukeminen on ihmiselle jonkin verran virhealtista, joten yleensä ne esitetään 16-järjestelmän ([heksadesimaalijärjestelmän](https://fi.wikipedia.org/wiki/Heksadesimaalij%C3%A4rjestelm%C3%A4)) avulla.
@@ -166,8 +166,8 @@ Kukin 16-järjestelmän numero vastaa siis neljää bittiä. Nyt yhden tavun bit
 On tärkeätä muistaa, että samat bittiyhdistelmät voivat tarkoittaa ihan eri asioita riippuen siitä, miten niitä käsitellään tai halutaan tulkita. Konekielessä on omia konekäskyjä raakadatan (bitit ilman merkitystä) käsittelyyn (esim. SHL eli siirrä bittejä vasemmalle) ja omia konekäskyjä tiettyjen tietotyyppien käsittelyyn (esim. ADD eli kokonaislukujen yhteenlasku). Viimeksi mainitut perustuvat tietotyyppien sovittuihin esitysmuotoihin, joihin tutustumme seuraavassa aliluvussa. Minkä tahansa tietotyypin esitysmuodossa olevaa tietoa voidaan käsitellä kuitenkin myös raakadatana pelkkinä bitteinä siihen tarkoitukseen sopivilla konekäskyillä.
 
 <!-- Quizes 3.1.8-9 -->
-<div><quiz id="4adc6501-2fa5-4b6c-8b4b-26481bcf12ab"></quiz></div>
-<div><quiz id="51c58332-340b-4b7f-8215-29d0c8999d82"></quiz></div>
+<div><quiz id="77c2d801-9b3c-5b4f-b72d-b8092f5d954d"></quiz></div>
+<div><quiz id="9ecfd977-b309-5db5-8f2d-f00f0b7c9573"></quiz></div>
 
 ## Monitavuinen tieto muistissa
 Tallennuksen yksikkö on yksi tavu, mutta muistissa tietoa talletetaan 32-bittisinä sanoina. Merkkijonot talletetaan muistiin peräkkäisiin tavuihin, jotka ovat peräkkäisissä sanoissa. Olisi luontevaa, että tavut talletettaisiin samassa järjestyksessä kuin me ihmiset olemme oppineet niitä käsittelemään. Siten esimerkiksi lukua 1350 tarkoittava merkkijono "1350" talletettaisiin muistiosoitteeseen 0x1A0 siten, että merkki '1' on tavussa 0x1A0, merkki '3' tavussa 0x1A1, merkki '5' tavussa 0x1A2 ja lopulta merkki '0' tavussa 0x1A3. Tällainen monitavuisen tiedon _sanan_ (tai kaksoissanan) sisäinen talletusmuoto on nimeltään _Big-Endian_ koska lukuarvoltaan eniten merkitsevä tavu on ensimmäisenä. Näin ei kuitenkaan tietokoneessa aina tehdä. Toisen talletusmuodon _Little-Endian_ mukaan sanassa vähiten merkitsevä tavu laitetaan ensimmäiseksi, jolloin kyseiset tavut tulevat tavallaan käänteisessä järjestyksessä muistiin. Tiedon osoite on joka tapauksessa sen muistissa olevan ensimmäisen tavun osoite.
@@ -235,4 +235,4 @@ Monitavuisen tiedon vaihtoehtoinen tavujärjestys. Vähiten merkitsevä tavu ens
 </text-box>
 
 <!-- Quiz 3.1.10 -->
-<div><quiz id="40941c5d-291a-452d-8dfe-210609378b98"></quiz></div>
+<div><quiz id="c9634cf9-535c-5916-91e1-f8f18e6660ef"></quiz></div>

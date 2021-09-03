@@ -57,7 +57,7 @@ Vuonna 1949 rakennettu EDSAC (Electronic Delay Storage Automatic Calculator) oli
 Neljäs luku esitteli käyttöjärjestelmien perusasiat. Esittelimme ensin käyttöjärjestelmän tehtäväalueet. Seuraavaksi tutustuimme prosessin käsitteeseen. Prosessi ovat suoritettavien ohjelmien esitysmuotoja järjestelmässä ja kaikki laskenta järjestelmässä tapahtuu prosessien kautta. Näytimme myös, kuinka käyttöjärjestelmä voidaan toteuttaa eri tavoin kutsuttavien aliohjelmien ja prosessien avulla. Lopuksi esittelimme pintapuolisesti, kuinka tietokonejärjestelmien laskentakyvyn rajoja voidaan päätellä tutkimalla kokonaislukuarvoisia funktioita ja niiden ominaisuuksia.
 
 Vastaa alla olevaan kyselyyn, kun olet valmis tämän luvun tehtävien kanssa.
-<div><quiz id="25705945-ee4a-4436-87f4-bf738b765084"></quiz></div>
+<div><quiz id="dce25c19-ce69-5e8b-8397-15d133c3a748"></quiz></div>
 
 <!--
 <div>
