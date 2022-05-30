@@ -2,6 +2,7 @@ const red = require("@material-ui/core/colors/red").default
 const blue = require("@material-ui/core/colors/red").default
 
 module.exports = {
+  pathPrefix: "/tietokoneen-toiminnan-perusteet-22",
   siteMetadata: {
     title: "Tietokoneen toiminnan perusteet",
     siteUrl: `https://tito-perusteet-2022.mooc.fi`,
