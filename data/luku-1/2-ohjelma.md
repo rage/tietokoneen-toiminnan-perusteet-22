@@ -204,9 +204,9 @@ Vaikka järjestelmässä suoritettaisiin missä tahansa muodossa olevaa ohjelmaa
 
 <!-- quiz 1.2.1-6 Onko tämä ohjelma -->
 
-<div><quiz id="bdf10b78-0049-50f1-9b8e-4ce0f548ed63"></quiz></div>
-<div><quiz id="d0263b44-920a-5cda-9206-8dc3d36bce1e"></quiz></div>
-<div><quiz id="0cde6446-467d-54e8-8793-55b1725b0e23"></quiz></div>
-<div><quiz id="11599d02-f840-5f4b-b18f-f63d48997ce5"></quiz></div>
-<div><quiz id="0791635c-f521-52de-b283-d1f9b135c052"></quiz></div>
-<div><quiz id="9124059b-ad86-586c-a0dc-ca65f55ede4c"></quiz></div>
+<div><quiz id="c8f05cb2-8ba9-5dd0-b9a5-dac3724855ab"></quiz></div>
+<div><quiz id="62b997d1-7643-59d9-a104-868490894180"></quiz></div>
+<div><quiz id="a078346b-bc36-5238-80d1-5ce866cff9ef"></quiz></div>
+<div><quiz id="c068e426-c89c-5f65-a96a-dd779f56101e"></quiz></div>
+<div><quiz id="486760d1-342a-58e5-b390-18a40a2def25"></quiz></div>
+<div><quiz id="a153ddf8-2a87-57e0-a05e-21a1e56c3a0f"></quiz></div>

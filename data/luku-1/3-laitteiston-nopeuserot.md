@@ -76,17 +76,17 @@ Oman tietokoneen massamuistin ja Internetissä olevien palvelimien välistä nop
 
 <!-- quiz 1.3.1-11 Väitteet tietokoneen nopeudesta, etc -->
 
-<div><quiz id="7ae733dc-a56c-5fd5-aa56-475fa462de82"></quiz></div>
-<div><quiz id="cce3a767-6f60-5664-985d-23a01ec113a5"></quiz></div>
-<div><quiz id="d28314c2-4294-527f-987a-d6ee81ccb402"></quiz></div>
-<div><quiz id="a6b07eba-fbc6-5920-9d40-2075bb16eecd"></quiz></div>
-<div><quiz id="e81fc774-8b0f-5d10-8e10-24dc528b7a7e"></quiz></div>
-<div><quiz id="e26cdabb-0bf9-5bd4-86c0-dab3d7d720e2"></quiz></div>
-<div><quiz id="c9597b3c-c2ad-58a5-9d86-76819a92938d"></quiz></div>
-<div><quiz id="dd54cc74-ffa5-509a-91fb-0dd6b8df70aa"></quiz></div>
-<div><quiz id="0cd52733-489a-5ec5-acfc-2543c8b0913b"></quiz></div>
-<div><quiz id="dc92de7d-bcc5-59b1-8a5e-d00524112875"></quiz></div>
-<div><quiz id="8bb8b7ae-0c5b-5e40-a4ab-f0a1584b81cb"></quiz></div>
+<div><quiz id="87434c92-b520-55a2-a1ea-22dbed537ea0"></quiz></div>
+<div><quiz id="b37cff47-c139-584b-8144-c6b3263e13d5"></quiz></div>
+<div><quiz id="01d41981-b261-5dec-bf2d-97444b47a6ba"></quiz></div>
+<div><quiz id="9f4609f4-fa07-5397-880d-43787a957de8"></quiz></div>
+<div><quiz id="b4b06ea0-21ae-55d5-9c79-2f9a6fd8eef6"></quiz></div>
+<div><quiz id="27dcf15f-d91c-51fd-86c1-e2ca820b9210"></quiz></div>
+<div><quiz id="391a0942-ba32-5501-ab95-eb00ab18322e"></quiz></div>
+<div><quiz id="42287e57-5c81-5fe4-840f-dfda749ec6ea"></quiz></div>
+<div><quiz id="8d8e2ae1-3c83-5fa1-b411-14956bd93905"></quiz></div>
+<div><quiz id="b99c8e68-a98e-5907-ac35-023db1d4b5e4"></quiz></div>
+<div><quiz id="42592a6d-b791-5b22-ae16-8adad3dbaf95"></quiz></div>
 
 <!-- Luvun 1 yhteenveto, mitä tuli opittua quiz 1.summary -->
 
@@ -107,4 +107,4 @@ Konrad Zuse kehitti Saksassa 1935-1936 mekaanisen tietokoneen Z1. Se oli oikeast
 Ensimmäinen luku käsitteli tietokonejärjestelmää ja sen osia. Sen jälkeen tutustuimme ohjelman käsitteeseen ja ohjelmien erilaisiin esitysmuotoihin vain ihmisen luettavissa olevista algoritmeista numeeriseen konekieleen. Lopuksi kävimme läpi tietokonejärjestelmän valtavia nopeuseroja ja niiden vaikutuksia järjestelmän käyttöön ja toteutukseen.
 
 Vastaa alla olevaan kyselyyn kun olet valmis ensimmäisen luvun tehtävien kanssa.
-<div><quiz id="89e67798-ae64-51b0-b21e-c8156f97a095"></quiz></div>
+<div><quiz id="1df0331b-e81c-53bb-ba67-6fe0f985ec2a"></quiz></div>

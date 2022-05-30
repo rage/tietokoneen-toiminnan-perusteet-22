@@ -115,10 +115,10 @@ Rakkauden (tai vihan) määrä on varmaankin parasta koodata liukulukuna, koska 
 ENIAC (Electronic Numerical Integrator and Computer) vuodelta 1945 oli ensimmäinen yleiskäyttöinen sähkökäyttöinen tietokone. Sen pääsuunnittelijat olivat John Mauchly ja J. Presper Eckert. Siinä oli 17468 elektroniputkea. Sen nopeus oli mullistavat 5000 yhteenlaskua tai 357 kertolaskua sekunnissa. Se painoi 27 tonnia, vaati lattiatilaa 167 m2 ja kulutti 150 kW sähköä. Siinä oli uutena piirteenä haarautumiskäsky. Ohjelmointi tapahtui fyysisesti (käsin) langoittamalla laitteisto suorittamaan tiettyä algoritmia ennen ohjelman suorittamista. Ensimmäisellä testiohjelmalla suoritettiin vetypommin kehittämiseen liittyviä laskelmia ja syöteaineisto oli yli miljoonalla reikäkortilla.
 
 <!-- Quizes 3.4.1-4  -->
-<div><quiz id="5a58da1d-7a03-5ac5-b16a-202fae97b479"></quiz></div>
-<div><quiz id="563ba1db-0b1f-57a8-9fbf-95c8e5e26da8"></quiz></div>
-<div><quiz id="eff0046d-8328-58ba-ba24-b6aff9a14c14"></quiz></div>
-<div><quiz id="5e15abd1-0966-5bf4-9f67-be91f758476c"></quiz></div>
+<div><quiz id="69cf8c14-658e-5885-98f4-a794f87180d6"></quiz></div>
+<div><quiz id="cf5ef39b-62cc-5e12-bd45-6c90e4512acc"></quiz></div>
+<div><quiz id="7d1ad80d-7f50-5776-9742-d25abe009148"></quiz></div>
+<div><quiz id="c6796ad4-4fae-5ab6-b0b7-485e4b858e94"></quiz></div>
 
 <!-- kuva: ch-3-4-eniac    -->
 
@@ -134,7 +134,7 @@ ENIAC (Electronic Numerical Integrator and Computer) vuodelta 1945 oli ensimmäi
 Kolmas luku käsitteli tiedon erilaisia esitysmuotoja. Käsittelimme tarkemmin neljä erilaista kokonaislukujen esitysmuotoa ja IEEE:n standardin mukaista liukulukujen 32-bittistä esitysmuotoa. Sen jälkeen tutustuimme merkkien ja merkkijonojen esitysmuotoihin. Kävimme sitten lyhyesti läpi (moniulotteisten) taulukoiden ja tietueiden toteutuksen. Lopuksi esittelimme pääperiaatteet kuvien, äänten ja kaiken muun tyyppisen tiedon esitystapoihin.
 
 Vastaa alla olevaan kyselyyn, kun olet valmis tämän luvun tehtävien kanssa.
-<div><quiz id="1d444194-b402-5c0a-ae60-2bd8cffd29e2"></quiz></div>
+<div><quiz id="ace4ceeb-c1a8-51b5-9db3-18f113a78e8f"></quiz></div>
 
 <!--
 <div>

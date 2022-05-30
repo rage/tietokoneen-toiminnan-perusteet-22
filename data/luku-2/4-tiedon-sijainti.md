@@ -105,16 +105,16 @@ Välimuistin käyttö on tuuripeliä, mutta siihen voi vaikuttaa. On aina tehokk
 
 <!-- Quiz 2.4.1-10 Väitteet tiedon sijainnin vaikutuksesta suoritusnopeuteen -->
 
-<div><quiz id="8f488186-0578-5cc4-bf46-a77fe54af7af"></quiz></div>
-<div><quiz id="dc21b029-65d6-5322-8e05-df303023edae"></quiz></div>
-<div><quiz id="f6956e5d-0428-53b2-bdaf-2c812a81b6ce"></quiz></div>
-<div><quiz id="6b4bcf9a-245c-57e4-ab80-81b58fe170f7"></quiz></div>
-<div><quiz id="7c53d5ad-94c6-5cbc-af8d-9833f96a42ac"></quiz></div>
-<div><quiz id="cdd04b1e-f14f-5232-a8aa-e58237fb4e1e"></quiz></div>
-<div><quiz id="1cd5d5c2-f658-578d-a037-4842b560ff7e"></quiz></div>
-<div><quiz id="5e7457a6-4dcb-5ec8-a9c5-c8effb937c9d"></quiz></div>
-<div><quiz id="1176fc2f-5b57-5d31-9d0b-5885aebd88a0"></quiz></div>
-<div><quiz id="be782d06-a745-56f7-aac2-351904fd5ba1"></quiz></div>
+<div><quiz id="91a0dfa0-97c7-544b-a532-0c06b75bad8e"></quiz></div>
+<div><quiz id="9184da3b-fa52-511a-ac05-0f9b5b4914e8"></quiz></div>
+<div><quiz id="cd477993-8c97-5e44-a88e-307d0c0c08b3"></quiz></div>
+<div><quiz id="d472b4f5-63c5-5347-a444-7ab7c3cb3e65"></quiz></div>
+<div><quiz id="a3686f6f-4cc3-5f8b-a87f-b5fc4c39c26e"></quiz></div>
+<div><quiz id="f581f2e2-757a-5096-80ee-a67935fca869"></quiz></div>
+<div><quiz id="0e663c3d-bdb9-559d-802a-ca955467a3b8"></quiz></div>
+<div><quiz id="dfa560d8-1689-59bd-bd45-e8c46db377f6"></quiz></div>
+<div><quiz id="d5599477-37d2-5c19-97f6-13985ec073ba"></quiz></div>
+<div><quiz id="cf94955f-2435-5461-9c00-a2ac73d846b8"></quiz></div>
 
 <text-box variant="example" name="Historiaa:  ESKO">
 
@@ -133,4 +133,4 @@ ESKO eli Elektroninen SarjaKOmputaattori (1960) oli ensimmäinen Suomessa rakenn
 Toinen luku käsitteli suorittimen ja muistin toimintaa. Aluksi katsoimme vähän tarkemmin suorittimen rakennetta ja erityisesti sen toimintaa käskyjen nouto- ja suoritussyklin toteuttajana. Sen jälkeen tarkastelimme konekäskyjen eri tyyppejä ja rakennetta. Lopuksi katsoimme, kuinka tiedon sijainti suoritusaikana voi vaihdella ja kuinka se vaikuttaa ohjelmien suoritusnopeuteen.
 
 Vastaa alla olevaan kyselyyn, kun olet valmis tämän luvun tehtävien kanssa.
-<div><quiz id="cf78e5e2-6922-503c-a07b-783cec690d86"></quiz></div>
+<div><quiz id="765da4d5-5a20-55c0-9501-d5d814f09354"></quiz></div>

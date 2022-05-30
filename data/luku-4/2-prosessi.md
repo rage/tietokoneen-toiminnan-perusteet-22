@@ -130,13 +130,13 @@ Prosessin tila voi olla merkittynä sen kuvaajaan. Ennen kaikkea tila selviää 
 </div>
 
 <!-- Quizes 4.2.1-10 -->
-<div><quiz id="5ce81d6b-a98e-5920-a56d-70d22db357a6"></quiz></div>
-<div><quiz id="e73c7fd8-64b8-5043-a5e3-af34a1843df0"></quiz></div>
-<div><quiz id="8f1a3d99-deea-5eb2-98c5-98e9f6a23ab8"></quiz></div>
-<div><quiz id="edfac76c-6e87-573e-a6c8-c59b542f5d8d"></quiz></div>
-<div><quiz id="fed869e9-4bca-5b29-959f-9d2451f5b3a4"></quiz></div>
-<div><quiz id="30a124e1-c78a-5bff-adbc-325e63ad941b"></quiz></div>
-<div><quiz id="cfd985d4-18f5-5193-9949-fd9f0d50baf9"></quiz></div>
-<div><quiz id="0b00bf36-ceae-5f30-a048-3df7acea51ac"></quiz></div>
-<div><quiz id="8fced05b-678c-5cdc-b731-f5274c940586"></quiz></div>
-<div><quiz id="b8bc85a6-ad08-5f01-bf65-0829458ac701"></quiz></div>
+<div><quiz id="daa63de2-46c9-5291-8e82-7b77f948415f"></quiz></div>
+<div><quiz id="e5261a0e-a323-585b-9b67-e7f7beb0a157"></quiz></div>
+<div><quiz id="e3cfcf7f-1e29-5ef5-984b-1d89a25e3b93"></quiz></div>
+<div><quiz id="c05695f1-5326-5f10-8e7e-ef036526605b"></quiz></div>
+<div><quiz id="25ad0da4-a4b8-5cb1-9147-e345642ef115"></quiz></div>
+<div><quiz id="9a760a91-e503-504e-a60f-c539afc8376b"></quiz></div>
+<div><quiz id="18f20450-235f-5e35-bcfd-478f86e837d2"></quiz></div>
+<div><quiz id="32a9fdaa-946f-5a89-9f48-28d9b18d24d3"></quiz></div>
+<div><quiz id="b989c942-3151-55ae-98a5-eda419ffa4c7"></quiz></div>
+<div><quiz id="270fd8f8-95d4-57f3-9a2a-fee843dae12a"></quiz></div>

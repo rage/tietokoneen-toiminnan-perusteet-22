@@ -70,8 +70,8 @@ Sovellusten ei tarvitse tietää, onko laiteajuri toteutettu omana prosessinaan 
 </div>
 
 <!-- Quizes 4.3.1-5 -->
-<div><quiz id="b3abc753-76c3-500f-8cbf-704ff007c70a"></quiz></div>
-<div><quiz id="5992e400-4d20-552f-a69f-28d5475365a8"></quiz></div>
-<div><quiz id="54e08407-8874-5493-b8e1-e3ab358df0ae"></quiz></div>
-<div><quiz id="b13bd5eb-5577-529c-9ac1-a8c648a54700"></quiz></div>
-<div><quiz id="60c7e077-62bb-5458-bcb5-858d6887406e"></quiz></div>
+<div><quiz id="57f665c2-f6fa-5c1e-8057-e8e306127f05"></quiz></div>
+<div><quiz id="4e1921d8-60dd-5f6b-8220-1816b365911b"></quiz></div>
+<div><quiz id="01777a0a-2fff-5501-8d0d-c73ad068a02e"></quiz></div>
+<div><quiz id="a5482ec9-b47b-5999-9fd3-2e403a011a91"></quiz></div>
+<div><quiz id="d5e71179-006a-5441-b52e-0ef5e123b599"></quiz></div>

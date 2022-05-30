@@ -141,10 +141,10 @@ Aseta PC:n arvoksi Kokonaisluvun ylivuoto -keskeytyskäsittelijän osoite
 
 <!-- quiz 2.2.1-7 Väitteet käskyjen nouto- ja suoritussyklistä  -->
 
-<div><quiz id="916f3a42-6b73-5f92-bf3f-7653d8eebdfb"></quiz></div>
-<div><quiz id="c33e5e4a-eb56-5b91-b148-75c208d2a431"></quiz></div>
-<div><quiz id="ee30dbb4-e5c5-53bd-8541-d0caf59f9acb"></quiz></div>
-<div><quiz id="e53911a6-eb8b-5764-b27d-355dbc71824f"></quiz></div>
-<div><quiz id="97f04967-df1f-572d-88cc-8bf04cc2f2ca"></quiz></div>
-<div><quiz id="9041dc2c-f115-5065-8e3a-424df9d4a9b8"></quiz></div>
-<div><quiz id="904a3d4b-e711-5f78-a9d7-924a33c3f8ce"></quiz></div>
+<div><quiz id="0cc89564-65a3-5a95-87aa-f0b9325bc92f"></quiz></div>
+<div><quiz id="c8726f12-9e73-5029-9b0a-45d294e12934"></quiz></div>
+<div><quiz id="25cefe19-09ad-5568-88ad-f2a4fbae7e52"></quiz></div>
+<div><quiz id="fe0b9eaf-a16e-5842-b1f2-96529fd47cfd"></quiz></div>
+<div><quiz id="2b757534-d2e7-5fe8-aac3-b7e1409603b1"></quiz></div>
+<div><quiz id="46aff13e-8b36-5414-ab47-953f58990261"></quiz></div>
+<div><quiz id="fd95b248-9a0f-5dfe-8271-972d085810af"></quiz></div>
