@@ -5,9 +5,11 @@ information_page: true
 ---
 
 
+**TÄMÄ KURSSI AVAUTUU SUORITETTAVAKSI 1.6.2022. Materiaaliin ja tehtäviin tulee muutoksia ennen tuota päivämäärää. Huomaa, ettei ennen 1.6.2022 kannata tehdä vielä mitään tämän kurssin tehtäviä, koska ne eivät kirjaudu suorituksiksi.**
+
 Tietokoneen toiminnan perusteet on kaikille avoin ja ilmainen verkkokurssi. Kurssilla perehdytään tietokoneen perustoimintoihin. Siinä esitellään myös käyttöjärjestelmän toiminta tietokonelaitteiston ja ohjelmiston välissä.
 
-Lähtötietoina kurssilla otaksutaan suomalaisen peruskoulun antamat valmiudet. Jonkun ohjelmointikurssin (esimerkiksi Helsingin yliopiston Ohjelmoinnin alkeet MOOC) suorittamisesta ennen tätä kurssia on etua, mutta se ei ole mitenkään välttämätöntä. Jos olet suorittamassa näitä molempia kursseja, niin suosittelemme, että Ohjelmoinnin alkeet -kurssi suoritettaisiin ensimmäisenä.
+Lähtötietoina kurssilla otaksutaan suomalaisen peruskoulun antamat valmiudet. Jonkun ohjelmointikurssin (esimerkiksi Helsingin yliopiston Ohjelmoinnin perusteet MOOC) suorittamisesta ennen tätä kurssia on etua, mutta se ei ole mitenkään välttämätöntä. Jos olet suorittamassa näitä molempia kursseja, niin suosittelemme, että Ohjelmoinnin perusteet -kurssi suoritettaisiin ensimmäisenä.
 
 Kurssi koostuu neljästä luvusta. Luvussa 1 esitellään tietokonejärjestelmä kokonaisuutena. Siinä tutustutaan myös ohjelman käsitteeseen ja ohjelmien erilaisiin esitysmuotoihin. Seuraavaksi luvussa 2 tarkastellaan suorittimen toimintaa ja näytetään, kuinka suoritin suorittaa konekielisessä esitysmuodossa olevia ohjelmia. Luvussa 3 kerrotaan, kuinka tieto esitetään tietokonejärjestelmässä. Erityisesti käydään läpi kokonaislukujen ja liukulukujen esitysmuodot. Liukuluvut ovat tietokoneissa käytetty realilukujen vastike. Luvussa 4 esitellään käyttöjärjestelmän perustoiminnot, joiden avulla hallinnoidaan järjestelmää ja annetaan palveluja sovellusohjelmille. Tällä tavoin sovellusohjelmat voivat rakentua tietyn käyttöjärjestelmän päälle, eikä niissä tarvitse huomioida laitteiston yksityiskohtia. Lopuksi esitellään perusteet laskettavuusteorialle, jonka avulla voidaan todistaa mielenkiintoisia ominaisuuksia tietokoneella ratkaistavissa olevista ongelmista.
 
@@ -25,7 +27,7 @@ Kukin oppilaitos voi itse määritellä, millä tavoin tämän [MOOC](https://mo
 ### Avoimen yliopiston kurssina
 Mikäli haluat kurssin suorituksesta opintopisteet Helsingin yliopiston opintorekisteriin, seuraa alla olevia ohjeita.
 
-Kun täytät kurssin läpäisyvaatimukset, saat sähköpostitse ohjeet kurssisuorituksen rekisteröintiin. 
+Kun täytät kurssin läpäisyvaatimukset, saat sähköpostitse ohjeet kurssisuorituksen rekisteröintiin.
 Lisätietoa tästä kurssin suoritustavasta saat [Avoimen yliopiston opinto-ohjelman kurssisivulta](https://courses.helsinki.fi/fi/aytkt100051). Älä rekisteröi suoritusta tätä kautta jos käyt Helsingin yliopiston opiskelijoille tarkoitettua luentokurssia (5 op).
 
 Jos et saa sähköpostia, voit käyttää tätä linkkiä: [rekisteröi suoritus](https://www.mooc.fi/register-completion/tietokoneen-toiminnan-perusteet).
