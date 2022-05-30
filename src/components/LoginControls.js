@@ -48,7 +48,9 @@ class LoginControls extends React.Component {
           <StyledIcon icon={profileIcon} />
           {this.state.name}
         </Button>
-        <Button onClick={this.doSignOut}>Kirjaudu ulos</Button>
+        <Button to="/sign-out" onClick={this.doSignOut}>
+          Kirjaudu ulos
+        </Button>
       </Fragment>
     ) : (
       <Fragment>
