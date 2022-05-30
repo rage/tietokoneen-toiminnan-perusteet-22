@@ -68,6 +68,6 @@ Tietoliikenneverkoissa on tärkeätä, että järjestelmässä suorittavat ohjel
 Ylimmän tason _sovelluskerros_ antaa helposti käytettävän geneerisen käyttöliittymän tietokoneiden (eri tietokoneilla suorittavien prosessien) väliseen yhteydenpitoon. Se myös selvittää, missä verkko-osoitteessa (esim. 128.214.189.90) toisen osapuolen tietokone (esim. "www.helsinki.fi)" sijaitsee. On jälleen hyvin käyttäjäystävällistä, että ympäri maailmaa olevista tietokoneista voidaan käyttää niiden _nimiä_ ja käyttöjärjestelmä sitten selvittää niiden _osoitteen_ nimen perusteella. Sovelluskerros pyytää _kuljetuskerrosta_ siirtämään halutun tiedon (tietosegmentin) vastaanottajalle. Sen alapuolella oleva _verkkokerros_ pilkkoo tiedon saman kokoisiksi paketeiksi ja selvittää parhaimman reitin vastaanottajalle. _Linkkikerros_ siirtää paketit (esim. Eetteriverkko-protokollaa käyttäen) verkon välittäjien kautta vastaanottajalle ja varmistaa, että ne menevät perille. Varsinaisen bittien siirron tekee alimman tason _fyysinen kerros_, joka on toteutettu puhtaasti laitteistolla.
 
 <!-- Quizes 4.1.1-3 -->
-<div><quiz id="9f0cc49b-76d9-54e1-98f2-01291fcd70bb"></quiz></div>
-<div><quiz id="26f22bae-db50-535d-8e2d-23818971508b"></quiz></div>
-<div><quiz id="67ed490b-bdb1-5171-b4f1-6c610a57bc1f"></quiz></div>
+<div><quiz id="405c61ad-8082-55d8-9508-2df71215cea6"></quiz></div>
+<div><quiz id="11320242-7b9f-5ca9-877c-69ac456220a3"></quiz></div>
+<div><quiz id="0248a26f-e5fe-5172-8b9e-c147e404b702"></quiz></div>

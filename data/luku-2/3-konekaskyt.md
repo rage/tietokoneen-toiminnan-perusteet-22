@@ -400,16 +400,16 @@ Tällä kurssilla ei mitenkään edellytetä konekielisen ohjelmoinnin harjoitte
 
 <!-- quiz 2.3.1-13 Väitteet konekäskyistä -->
 
-<div><quiz id="52cc4a2b-324b-532d-8b50-69fa6f70709a"></quiz></div>
-<div><quiz id="55c91446-c9ad-5f38-8168-fc4276b566d1"></quiz></div>
-<div><quiz id="5c2a3170-7476-5a26-bce1-3fdc14beca8a"></quiz></div>
-<div><quiz id="7c2f1fe6-3f41-5bda-a4d4-42336a3e2102"></quiz></div>
-<div><quiz id="a9c9c399-6f96-5c2d-b5e9-ff18a926ab52"></quiz></div>
-<div><quiz id="16b539a6-896a-5096-a289-b94a9a230f68"></quiz></div>
-<div><quiz id="7c5ca555-af91-5a57-b5ee-5d339d026906"></quiz></div>
-<div><quiz id="fe8c53db-3d3e-5006-ac64-cc5d554517ac"></quiz></div>
-<div><quiz id="23199cb7-d3fd-513a-922b-08233925cd95"></quiz></div>
-<div><quiz id="e6a3d668-40bb-55d8-ba86-a811aa73f202"></quiz></div>
-<div><quiz id="89af58da-601a-5cc3-9356-86248e9884d1"></quiz></div>
-<div><quiz id="744814df-c40e-5b39-a19e-19c45fb32f00"></quiz></div>
-<div><quiz id="8b673787-0cbd-5b18-a0b0-8189ce6daa82"></quiz></div>
+<div><quiz id="147ae495-671a-5860-b4a3-325b4de3d516"></quiz></div>
+<div><quiz id="c755c8de-24b9-5af4-b242-3e18aaf648f5"></quiz></div>
+<div><quiz id="5cf3ff62-21c5-5ba4-950b-dba748cd8570"></quiz></div>
+<div><quiz id="bdf43b38-a75b-579f-b456-d0e9eff1262a"></quiz></div>
+<div><quiz id="7e6d4434-ba27-558d-b776-62b76c9d5eb7"></quiz></div>
+<div><quiz id="27ba6814-1c57-572e-b0cf-fd0b9100570d"></quiz></div>
+<div><quiz id="786d8194-beb1-55e7-ba0b-89f9e8ff3db4"></quiz></div>
+<div><quiz id="2f8ab620-b418-5fad-bd06-3f4f6bfdbecb"></quiz></div>
+<div><quiz id="3c9acabf-b3d3-5a3d-a395-aac1295770ba"></quiz></div>
+<div><quiz id="7ef84990-f5ff-5f4d-9c2a-b5b181f24eb5"></quiz></div>
+<div><quiz id="d9888d51-2a01-509d-8f81-55ae6ea5ed42"></quiz></div>
+<div><quiz id="61a18896-4986-5879-8bb9-96ef5e3ffc8f"></quiz></div>
+<div><quiz id="75a68ce0-4972-5dd9-b96b-aa73d44ae80e"></quiz></div>
