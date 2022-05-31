@@ -71,27 +71,31 @@ Esimerkkikoneessa ttk-91 on kolme tiedonosoitustapaa ja ne perustuvat kaikki ind
 Ttk-91:n suorittimella on kolme vaihtoehtoista tapaa saada jälkimmäinen operandi edellä lasketun "muistiosoitteen" avulla ja ne valitaan 2-bittisen _tiedonosoitusmoodin_ avulla. Moodin arvo 0 (_välitön tiedonosoitus_) tarkoittaa, että tuo äsken laskettu "muistiosoite" on sellaisenaan toinen operandi, eikä mitään muistiviitettä tarvita. Moodin arvo 1 (_suora muistiviite_) tarkoittaa, että muistiosoitetta käytetään yhden kerran operandin hakemiseksi muistista. Moodin arvo 2 (_epäsuora muistiviite_) tarkoittaa, että ensin haetaan muistista edellä laskettua muistiosoitetta käyttäen toisen operandin osoite ja vasta sitten haetaan muistista tuota osoitetta käyttämällä jälkimmäinen operandi.
 
 ```
-Esimerkki: Ttk-91 käskyn toisen operandin arvon nouto TR:ään, toteutus
+Esimerkki: Ttk-91 käskyn toisen operandin arvon nouto TR:ään. Oletetaan, että käskyrekisterissä IR on jokin ttk-91 konekäsky. Suoritin toteuttaa seuraavat vaiheet kontrolliyksikön käskyttämänä:
 
-Jos käskyn jälkimmäisen rekisterin numero on 0,
-    Kopioi käskyn vakiokentän arvo rekisteriin TR.
-muutoin
-    Kopioi käskyn jälkimmäisen rekisterin arvo ALU:n operandiksi 1,
-    Kopioi käskyn vakiokentän arvo ALU:n operandiksi 2,
-    Anna ALU:lle komento "add",
-    Odota vähän aikaa,
-    Kopio ALU:n ulostulo rekisteriin TR.
+
+Jos käskyn oikeanpuoleisen operandin numero on 0:
+    Kopioi käskyn vakiokentän arvo tilapäisrekisteriin TR.
+
+Jos käskyn oikeanpuoleisen rekisterin numero eri kuin 0:
+    Laske operandin tosiasiallinen osoite (tai arvo) seuraavasti:
+        Kopioi käskyn oikeanpuoleisen rekisterin arvo ALU:n operandiksi 1,
+        Kopioi käskyn vakiokentän arvo ALU:n operandiksi 2,
+        Anna ALU:lle kontrollijohtimia pitkin komento "add",
+        Odota vähän aikaa,
+        Kopioi ALU:n ulostulo rekisteriin TR.
+        (Nyt operandin tosiasiallinen osoite (tai arvo) on TR:ssä.)
 
 Jos käskyn moodi-kentän arvo on vähintään 1,
     Kopioi TR:n arvo rekisteriin MAR,
     Anna väylän kontrollirekisterille (Bus Ctl) komento "Read",
-    Odota vähän aikaa,
+    Odota vähän aikaa, että arvo saapuu muistista väylää pitkin MBR:ään.
     Kopio rekisterin MBR arvo rekisteriin TR.
 
 Jos käskyn moodi-kentän arvo on vähintään 2,
     Kopioi TR:n arvo rekisteriin MAR,
     Anna väylän kontrollirekisterille (Bus Ctl) komento "Read",
-    Odota vähän aikaa,
+    Odota vähän aikaa, että arvo saapuu muistista väylää pitkin MBR:ään.
     Kopio rekisterin MBR arvo rekisteriin TR.
 
 Jos käskyn moodi-kentän arvo on vähintään 3,
