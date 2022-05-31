@@ -5,8 +5,6 @@ information_page: true
 ---
 
 
-**TÄMÄ KURSSI AVAUTUU SUORITETTAVAKSI 1.6.2022. Materiaaliin ja tehtäviin tulee muutoksia ennen tuota päivämäärää. Huomaa, ettei ennen 1.6.2022 kannata tehdä vielä mitään tämän kurssin tehtäviä, koska ne eivät kirjaudu suorituksiksi.**
-
 Tietokoneen toiminnan perusteet on kaikille avoin ja ilmainen verkkokurssi. Kurssilla perehdytään tietokoneen perustoimintoihin. Siinä esitellään myös käyttöjärjestelmän toiminta tietokonelaitteiston ja ohjelmiston välissä.
 
 Lähtötietoina kurssilla otaksutaan suomalaisen peruskoulun antamat valmiudet. Jonkun ohjelmointikurssin (esimerkiksi Helsingin yliopiston Ohjelmoinnin perusteet MOOC) suorittamisesta ennen tätä kurssia on etua, mutta se ei ole mitenkään välttämätöntä. Jos olet suorittamassa näitä molempia kursseja, niin suosittelemme, että Ohjelmoinnin perusteet -kurssi suoritettaisiin ensimmäisenä.
