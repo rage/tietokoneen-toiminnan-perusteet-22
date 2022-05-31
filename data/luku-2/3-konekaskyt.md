@@ -451,6 +451,10 @@ Titokone löytyy verkkosivulta https://www.cs.helsinki.fi/group/titokone/. Helpo
 <br><br>
 Tällä kurssilla ei mitenkään edellytetä konekielisen ohjelmoinnin harjoittelua Titokoneella. Se voi kuitenkin olla hauskaa, kuten kaikki muukin ohjelmointi. Malta kuitenkin jatkaa kurssin läpikäyntiä, äläkä jää huvittelemaan Titokoneen kanssa.
 
+Kurssilla Tietokoneen toiminnan jatkokurssi 2022 tutustutaan tarkemmin ttk-91-ohjelmointiin ja TitoTrainer-oppimisympäristössä tehdyt ohjelmointitehtävät ovat osa kurssisuoritusta. Voit halutessasi jo harjoitella ohjelmointia ja suorittamasi tehtävät huomioidaan tuolla jatkokurssilla.
+
+TitoTraineriä käytetään osoitteessa [http://titotrainer2.users.cs.helsinki.fi/](http://titotrainer2.users.cs.helsinki.fi/). Voit luoda sinne oman tunnuksen ja valita kurssiksi MOOC 2022. Valitse mahdollisimman yksilöllinen tunnus, sillä jos jokin tunnus on jo aiemmin olemassa, TitoTrainer ei välttämättä kerro sitä, vaan ilmoittaa jostakin muusta virheestä.
+
 </text-box>
 
 <!-- quiz 2.3.1-13 Väitteet konekäskyistä -->
