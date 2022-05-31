@@ -110,6 +110,6 @@ Suorittimen sisällä on oma sisäinen väylä (tai usea) tiedonsiirtoon sen eri
 <div><quiz id="467b18ec-3f80-5f91-b8f6-10f59d19d2e1"></quiz></div>
 <div><quiz id="904139ad-f905-57ca-918c-97b525a7f123"></quiz></div>
 <div><quiz id="99be7354-49f2-5b21-92de-63176120ba1b"></quiz></div>
-<div><quiz id="e453bf3c-242c-5848-90c0-07c64263e660"></quiz></div>
+
 <div><quiz id="f58b9155-ec9d-596a-b7f2-8fa0f0cab6e4"></quiz></div>
 <div><quiz id="587810ec-0aa6-585a-b915-9c8368d41484"></quiz></div>
