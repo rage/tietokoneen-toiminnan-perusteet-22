@@ -376,7 +376,7 @@ STORE R1, Arvosanat(R2)
 ```
 Tällöin kääntäjä kääntää sen kuin ohjelmakoodissa olisi lukenut:
 ```
-STORE R1, 1001(R3)
+STORE R1, 1001(R2)
 ```
 Koska ttk-91:ssä on käytössä _indeksoitu muistiinosoitus_, tuo konekäsky tallentaa rekisterin R1 arvon muistiosoitteeseen, joka saadaan laskemalla 1001 + R3 eli 1001 + rekisterin R3 arvo. Jos rekisterin R3 arvo on ennen tuon käskyn suorittamista 20, niin tällöin tuo konekäsky tallentaa rekisterin R1 arvon muistiosoitteeseen 1001+20\ = 1021.
 
