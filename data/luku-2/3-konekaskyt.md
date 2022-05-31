@@ -478,7 +478,7 @@ TitoTraineriä käytetään osoitteessa [http://titotrainer2.users.cs.helsinki.f
 
 </text-box>
 
-<!-- quiz 2.3.1-13 Väitteet konekäskyistä -->
+<!-- quiz 2.3.1-9 Konekäsky- ja bittitehtäviä -->
 
 <div><quiz id="147ae495-671a-5860-b4a3-325b4de3d516"></quiz></div>
 <div><quiz id="c755c8de-24b9-5af4-b242-3e18aaf648f5"></quiz></div>
@@ -489,7 +489,4 @@ TitoTraineriä käytetään osoitteessa [http://titotrainer2.users.cs.helsinki.f
 <div><quiz id="786d8194-beb1-55e7-ba0b-89f9e8ff3db4"></quiz></div>
 <div><quiz id="2f8ab620-b418-5fad-bd06-3f4f6bfdbecb"></quiz></div>
 <div><quiz id="3c9acabf-b3d3-5a3d-a395-aac1295770ba"></quiz></div>
-<div><quiz id="7ef84990-f5ff-5f4d-9c2a-b5b181f24eb5"></quiz></div>
-<div><quiz id="d9888d51-2a01-509d-8f81-55ae6ea5ed42"></quiz></div>
-<div><quiz id="61a18896-4986-5879-8bb9-96ef5e3ffc8f"></quiz></div>
-<div><quiz id="75a68ce0-4972-5dd9-b96b-aa73d44ae80e"></quiz></div>
+
