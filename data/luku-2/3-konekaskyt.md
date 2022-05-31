@@ -353,7 +353,11 @@ Muuttujan tai vakion tilanvarauskäsky on DC (data constant). Esimerkiksi muuttu
 ```
 Anna DC 200
 ```
-Käännösvaiheessa kääntäjä varaa muuttujalle `Anna` yhden muistipaikan ja asettaa sen muistipaikan arvoksi 200. Käännöksessä kääntäjä käyttää hyväksi _symbolien_ arvoa. Kääntäjä asettaa _symbolitauluun_ symbolin Anna arvoksi muuttujan Anna osoitteen. Oletetaan, että muuttujan Anna osoite on 1000 ja ohjelmakoodissa on seuraava konekäsky:
+Käännösvaiheessa kääntäjä varaa muuttujalle `Anna` yhden muistipaikan ohjelman sisäisessä muistiavaruudeta ja asettaa sen muistipaikan arvoksi 200. Käännöksessä kääntäjä käyttää hyväksi _symbolien_ arvoa. Kääntäjä asettaa _symbolitauluun_ symbolin Anna arvoksi muuttujan Anna osoitteen.
+
+_Huomaa, että kun käännösvaiheessa puhutaan muistipaikoista, muistiosoitteista ja osoitteista, niillä tarkoitetaan aina ohjelman sisäisen muistiavaruuden osoitteita, jotka alkavat nollasta ja päättyvät ohjelmalle varattuun kokoon vähennettynä yhdellä. Vasta ohjelmaa suorittaessa muistinhallintayksikkö MMU muuntaa ohjelman sisäisen muistiavaruuden osoitteen fyysiseksi keskusmuistiosoitteeksi._
+
+Oletetaan, että muuttujan Anna osoite on 1000 ja ohjelmakoodissa on seuraava konekäsky:
 ```
 LOAD R1, Anna
 ```
@@ -372,13 +376,13 @@ Tällöin kääntäjä varaa taulukolle 30 peräkkäistä muistipaikkaa ja asett
 
 Oletetaan, että tuo alkuosoite on 1001 ja että ohjelmakoodissa on seuraava käsky:
 ```
-STORE R1, Arvosanat(R2)
+STORE R1, Arvosanat(R3)
 ```
 Tällöin kääntäjä kääntää sen kuin ohjelmakoodissa olisi lukenut:
 ```
-STORE R1, 1001(R2)
+STORE R1, 1001(R3)
 ```
-Koska ttk-91:ssä on käytössä _indeksoitu muistiinosoitus_, tuo konekäsky tallentaa rekisterin R1 arvon muistiosoitteeseen, joka saadaan laskemalla 1001 + R3 eli 1001 + rekisterin R3 arvo. Jos rekisterin R3 arvo on ennen tuon käskyn suorittamista 20, niin tällöin tuo konekäsky tallentaa rekisterin R1 arvon muistiosoitteeseen 1001+20\ = 1021.
+Koska ttk-91:ssä on käytössä _indeksoitu muistiinosoitus_, tuo konekäsky tallentaa rekisterin R1 arvon osoitteeseen, joka saadaan laskemalla 1001 + R3 eli 1001 + rekisterin R3 arvo. Jos rekisterin R3 arvo on ennen tuon käskyn suorittamista 20, niin tällöin tuo konekäsky tallentaa rekisterin R1 arvon osoitteeseen 1001+20\ = 1021.
 
 **Symbolin arvon määrittäminen**
 
