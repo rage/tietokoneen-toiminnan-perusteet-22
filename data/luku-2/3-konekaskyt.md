@@ -343,11 +343,62 @@ if (x<y)                 load r1, x    -- onko x<y?
 ```
 
 ### Symbolisen konekielen kääntäjän ohjauskäskyt, valekäskyt
-Ohjelmien symbolisen konekielisessä esitystavassa on suorittimen konekäskyjen lisäksi mukana myös kääntäjän ohjauskäskyjä. Niiden avulla ilmaistaan mm. tilanvarauksia muuttujille ja muille tietorakenteille sekä nimiä halutuille vakioarvoille. Näitä kutsutaan joskus myös _valekäskyiksi_, koska ne näyttävät tavallisilta käskyiltä, mutta niistä ei tule mitään suoritettavaa konekäskyä. Ne vaikutus on ohjelman kääntämisen ja latauksen aikana.
+Ohjelmien symbolisen konekielisessä esitystavassa on suorittimen konekäskyjen lisäksi mukana myös kääntäjän ohjauskäskyjä. Niiden avulla ilmaistaan mm. tilanvarauksia muuttujille ja muille tietorakenteille sekä nimiä halutuille vakioarvoille. Näitä kutsutaan joskus myös _valekäskyiksi_, koska ne näyttävät tavallisilta käskyiltä, mutta niistä ei tule mitään suoritettavaa konekäskyä. Ne vaikuttavat vain ohjelman kääntämisen tai latauksen aikana.
 
-Ttk-91:ssä on muuttujan tai vakion tilanvarauskäsky DC (data constant), joka varaa tilaa muuttujalle ja antaa sille alkuarvon. Toinen tilanvarauskäsky DS (data segment) on taulukoiden ja tietueiden tilanvarausta varten. Sen avulla varataan tilaa yhdellä kertaa useampi sana, mutta varattu tila pitää itse alustaa koodissa. Jollekin vakioarvolle (esim. luku 20) voi antaa nimen (esim. LKM) valekäskyllä EQU. Symbolisessa konekielessä on ihan sama, käyttääkö koodissa jotain symbolia tai sen arvoa.
+#### Muuttujien, taulukoiden ja vakioiden määrittelyn ohjauskäskyt ttk-91 symbolisessa konekielessä
+
+**Muuttujan tilanvaraus**
+
+Muuttujan tai vakion tilanvarauskäsky on DC (data constant). Esimerkiksi muuttujan Anna tilanvaraus ja alkuarvon asettaminen tehdään kirjoittamalla ohjelmaan näin:
+```
+Anna DC 200
+```
+Käännösvaiheessa kääntäjä varaa muuttujalle `Anna` yhden muistipaikan ja asettaa sen muistipaikan arvoksi 200. Käännöksessä kääntäjä käyttää hyväksi _symbolien_ arvoa. Kääntäjä asettaa _symbolitauluun_ symbolin Anna arvoksi muuttujan Anna osoitteen. Oletetaan, että muuttujan Anna osoite on 1000 ja ohjelmakoodissa on seuraava konekäsky:
+```
+LOAD R1, Anna
+```
+Tällöin kääntäjä kääntää tämän käskyn ikään kuin se olisi:
+```
+LOAD R1, 1000
+```
+
+**Taulukon tilanvaraus**
+
+Taulukko on tietorakenne, joka koostuu peräkkäisistä muistipaikoista. Taulukon tilanvaraus tehdään tilanvarauskäskyllä DS (data segment). Esimerkiksi tilanvaraus taulukolle `Arvosanat` saadaan tehtyä seuraavasti.
+```
+Arvosanat DS 30
+```
+Tällöin kääntäjä varaa taulukolle 30 peräkkäistä muistipaikkaa ja asettaa symbolin `Arvosanat` arvoksi taulukon ensimmäisen osoitteen.
+
+Oletetaan, että tuo alkuosoite on 1001 ja että ohjelmakoodissa on seuraava käsky:
+```
+STORE R1, Arvosanat(R2)
+```
+Tällöin kääntäjä kääntää sen kuin ohjelmakoodissa olisi lukenut:
+```
+STORE R1, 1001(R3)
+```
+Koska ttk-91:ssä on käytössä _indeksoitu muistiinosoitus_, tuo konekäsky tallentaa rekisterin R1 arvon muistiosoitteeseen, joka saadaan laskemalla 1001 + R3 eli 1001 + rekisterin R3 arvo. Jos rekisterin R3 arvo on ennen tuon käskyn suorittamista 20, niin tällöin tuo konekäsky tallentaa rekisterin R1 arvon muistiosoitteeseen 1001+20\ = 1021.
+
+**Symbolin arvon määrittäminen**
+
+Joskus on kätevää määritellä ohjelmoidessa joitakin vakioita, jotka kuitenkin muunnetaan jo käännösvaiheessa kokonaisluvuiksi. Tätä varten ttk-91-kääntäjässä on käytössä ohjauskäsky `EQU`. Sitä käytetään seuraavasti ohjelmakoodissa:
+```
+VASTAUS EQU 42
+```
+Tällöin kääntäjä asettaa symbolitauluun symbolin `VASTAUS` arvoksi 42. Oletetaan, että ohjelmassa on lisäksi tällainen rivi:
+```
+COMP R2, =VASTAUS
+```
+Tällöin kääntäjä kääntää kyseisen konekäskyn ikään kuin siinä olisi lukenut seuraavasti:
+```
+COMP R2, =1000
+```
 
 <!-- ttk91 ohjelmaesimerkki -->
+
+#### Ttk-91 ohjelmaesimerkki
+
 
 ```
 Ttk-91 ohjelmaesimerkki
