@@ -396,7 +396,7 @@ COMP R2, =VASTAUS
 ```
 Tällöin kääntäjä kääntää kyseisen konekäskyn ikään kuin siinä olisi lukenut seuraavasti:
 ```
-COMP R2, =1000
+COMP R2, =42
 ```
 
 <!-- ttk91 ohjelmaesimerkki -->
