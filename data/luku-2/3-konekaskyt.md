@@ -310,15 +310,32 @@ I/O-laitteiden käyttö on vaikeata, koska siinä pitää synkronoida toiminta s
 
 Ttk-91:ssä on IN-käsky tiedon lukemiseen näppäimistöltä ja OUT-käsky tiedon kirjoittamiseen näytölle. Näitä voi käyttää tavallisessa suoritustilassa, koska ttk-91:ssä ei muita suoritustiloja ole edes määritelty.
 
+**Syötteen lukeminen käyttäjältä**
+
+Ttk-91:ssä käyttäjän syötteen tulee aina olla kokonaisluku. Konekäskyllä
+```
+IN R3, =KBD
+```
+saadaan luettua tulosrekisteriin rekisteriin R3 käyttäjän syötteenä antama kokonaisluku. Sallittuja rekistereitä IN-käskyn kanssa käytettäessä ovat R0 - R5. Rekisterit R6 (SP) ja R7 (FP) ovat varattu erikoistarkoituksia varten (pino-osoitin ja kehysosoitin).
+
+**Kokonaisluvun tulostaminen**
+
+Ttk-91:ssä tulostaminen näytölle rekisteristä R3 tehdään seuraavasti:
+```
+OUT R3, =CRT
+```
+Rekisteri voi olla R3:n sijasta myös R0 - R7 eli R0 - R5, SP tai FP.
+
 <!-- IO käsky esimerkki  -->
 
 ```
-Esimerkki: I/O-käsky
+Esimerkki: I/O-käskyt
 
 C-kieli       konekieli
 
 Print(x);     load  r1, x    ; laita tulostettava arvo rekisteriin r1
               out   r1, =crt ; tulosta r1 arvo näytölle konekäskyllä out
+
 ```
 
 ### Erityiskäskyt
