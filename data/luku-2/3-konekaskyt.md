@@ -74,13 +74,13 @@ Ttk-91:n suorittimella on kolme vaihtoehtoista tapaa saada jälkimmäinen operan
 Esimerkki: Ttk-91 käskyn toisen operandin arvon nouto TR:ään. Oletetaan, että käskyrekisterissä IR on jokin ttk-91 konekäsky. Suoritin toteuttaa seuraavat vaiheet kontrolliyksikön käskyttämänä:
 
 
-Jos käskyn oikeanpuoleisen operandin numero on 0:
-    Kopioi käskyn vakiokentän arvo tilapäisrekisteriin TR.
+
+Kopioi käskyn vakiokentän arvo tilapäisrekisteriin TR.
 
 Jos käskyn oikeanpuoleisen rekisterin numero eri kuin 0:
     Laske operandin tosiasiallinen osoite (tai arvo) seuraavasti:
         Kopioi käskyn oikeanpuoleisen rekisterin arvo ALU:n operandiksi 1,
-        Kopioi käskyn vakiokentän arvo ALU:n operandiksi 2,
+        Kopioi rekisterin TR arvo ALU:n operandiksi 2,
         Anna ALU:lle kontrollijohtimia pitkin komento "add",
         Odota vähän aikaa,
         Kopioi ALU:n ulostulo rekisteriin TR.
