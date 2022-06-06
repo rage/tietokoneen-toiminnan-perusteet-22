@@ -22,7 +22,7 @@ Mikäli haluat kurssin suorituksesta opintopisteet Helsingin yliopiston opintore
 Kun täytät kurssin läpäisyvaatimukset, saat sähköpostitse ohjeet kurssisuorituksen rekisteröintiin.
 Lisätietoa tästä kurssin suoritustavasta saat [Avoimen yliopiston opinto-ohjelman kurssisivulta](https://studies.helsinki.fi/opintotarjonta/cu/hy-CU-129433593-2020-08-01/TKT100051/Tietokoneen_toiminnan_perusteet). Älä rekisteröi suoritusta tätä kautta jos käyt Helsingin yliopiston opiskelijoille tarkoitettua luentokurssia (5 op).
 
-Jos et saa sähköpostia, voit käyttää tätä linkkiä: [rekisteröi suoritus](https://www.mooc.fi/register-completion/tietokoneen-toiminnan-perusteet).
+Jos et saa sähköpostia, voit käyttää tätä linkkiä: [rekisteröi suoritus](https://www.mooc.fi/register-completion/tietokoneen-toiminnan-perusteet-2022).
 
 #### Omaehtoinen itsenäinen opiskelu
 Kuka tahansa tietokoneiden toiminnasta kiinnostunut voi käyttää tätä materiaalia itseopiskeluuun. Käy läpi kurssimateriaali, surfaile haluamiasi lisätietoja verkosta, vastaile pikatehtäviin ("quiz") ja nauti opiskelusta!
