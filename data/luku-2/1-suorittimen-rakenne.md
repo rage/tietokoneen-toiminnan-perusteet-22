@@ -54,7 +54,7 @@ Normaali suorituksessa oleva ohjelma (prosessi) ei saa viitata muiden prosessien
 
 <text-box variant="example" name="Esimerkkitietokone ttk-91">
 
-Kurssilla käytetään esimerkkinä hyvin yksinkertaista tietokonetta, joka on antaa oikein hyvän kuvan todellisesta tietokoneesta. Todellinen tietokone on tietenkin jonkin verran monimutkaisempi ja kattavampi. Sellaisiin voitte sitten perehtyä myöhemmin, kun teillä on paremmat taustatiedot aihepiiristä.
+Kurssilla käytetään esimerkkinä hyvin yksinkertaista tietokonetta, joka antaa oikein hyvän kuvan todellisesta tietokoneesta. Todellinen tietokone on tietenkin jonkin verran monimutkaisempi ja kattavampi. Sellaisiin voitte sitten perehtyä myöhemmin, kun teillä on paremmat taustatiedot aihepiiristä.
 <br><br>
 Tietokoneen ttk-91 määritelmän on tehnyt Auvo Häkkinen vuonna 1991 Helsingin yliopistolla pidettyä Tietokoneen toiminta -kurssia varten. Ttk-91 on edelleen käytössä ja sille on tehty mm. simulaattori [Titokone](https://www.cs.helsinki.fi/group/titokone/) symbolisella konekielellä tehtyjen ohjelmien kehittämiseksi ja suorittamiseksi.
 
