@@ -46,9 +46,9 @@ Bitit numeroidaan yleensä oikealta vasemmalle, alkaen bitistä nolla (0). Esime
 </div>
 
 ### Muistinhallintayksikkö MMU, muistinkuvaus
-MMU (Memory Management Unit) toimii suorittimen käyttöliittymänä väylälle. Siellä olevan sisäisen rekisterin MAR (Memory Address Register) kautta voidaan asettaa viitatun muistialueen osoite osoiteväylälle. Sisäisen rekisterin MBR (Memory Buffer Register) kautta saadaan haluttu tieto dataväylälle, josta se kirjoitetaan muistiin osoiteväylän osoittamaan paikkaan. Vastaavasti MBR:ään saada tieto dataväylältä, kun muistia luetaan. Sisäisen rekisterin BusCtl kautta synkronoidaan ja ohjataan väylän käyttöä.
+MMU (Memory Management Unit) toimii suorittimen käyttöliittymänä väylälle. Siellä olevan sisäisen rekisterin MAR (Memory Address Register) kautta voidaan asettaa viitatun muistialueen osoite osoiteväylälle. Sisäisen rekisterin MBR (Memory Buffer Register) kautta saadaan haluttu tieto dataväylälle, josta se kirjoitetaan muistiin osoiteväylän osoittamaan paikkaan. Vastaavasti MBR:ään saadaan tieto dataväylältä, kun muistia luetaan. Sisäisen rekisterin BusCtl kautta synkronoidaan ja ohjataan väylän käyttöä.
 
-Normaali suorituksessa oleva ohjelma (prosessi) ei saa viitata muiden prosessien tai käyttöjärjestelmän muistialueisiin. Tämä on toteutettu (kurssin esimerkkikoneessa) sisäisillä rajarekistereillä BASE ja LIMIT. Suorituksessa olevan ohjelman muistialue alkaa rekisterin BASE osoittamasta paikasta ja on rekisterin LIMIT pituinen. Pituus voida ilmoittaa esimerkiksi tavuina tai sanoina.
+Normaali suorituksessa oleva ohjelma (prosessi) ei saa viitata muiden prosessien tai käyttöjärjestelmän muistialueisiin. Tämä on toteutettu (kurssin esimerkkikoneessa) sisäisillä rajarekistereillä BASE ja LIMIT. Suorituksessa olevan ohjelman muistialue alkaa rekisterin BASE osoittamasta paikasta ja on rekisterin LIMIT pituinen. Pituus voidaan ilmoittaa esimerkiksi tavuina tai sanoina.
 
 <!-- note: ttk-91 -->
 
