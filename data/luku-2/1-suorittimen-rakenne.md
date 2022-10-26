@@ -54,7 +54,7 @@ Normaali suorituksessa oleva ohjelma (prosessi) ei saa viitata muiden prosessien
 
 <text-box variant="example" name="Esimerkkitietokone ttk-91">
 
-Kurssilla käytetään esimerkkinä hyvin yksinkertaista tietokonetta, joka on antaa oikein hyvän kuvan todellisesta tietokoneesta. Todellinen tietokone on tietenkin jonkin verran monimutkaisempi ja kattavampi. Sellaisiin voitte sitten perehtyä myöhemmin, kun teillä on paremmat taustatiedot aihepiiristä.
+Kurssilla käytetään esimerkkinä hyvin yksinkertaista tietokonetta, joka antaa oikein hyvän kuvan todellisesta tietokoneesta. Todellinen tietokone on tietenkin jonkin verran monimutkaisempi ja kattavampi. Sellaisiin voitte sitten perehtyä myöhemmin, kun teillä on paremmat taustatiedot aihepiiristä.
 <br><br>
 Tietokoneen ttk-91 määritelmän on tehnyt Auvo Häkkinen vuonna 1991 Helsingin yliopistolla pidettyä Tietokoneen toiminta -kurssia varten. Ttk-91 on edelleen käytössä ja sille on tehty mm. simulaattori [Titokone](https://www.cs.helsinki.fi/group/titokone/) symbolisella konekielellä tehtyjen ohjelmien kehittämiseksi ja suorittamiseksi.
 
@@ -73,7 +73,7 @@ Ohjelman käytössä oleva muistialue on jaettu erilaisiin osiin. Tyypillisesti 
 
 Pino on erityinen aliohjelmien toteutukseen liittyvä muistialue, jonka avulla toteutetaan mm. aliohjelmien parametrien välitys ja aliohjelmien omien tietorakenteiden tilanvaraus. Pino on kuin pöydällä oleva korttipakka, johon uusia kortteja laitetaan vain sen päälle ja sieltä voi poistaa kortteja vain pakan päältä. Pino kasvaa aina aliohjelmakutsun yhteydessä ja pienenee sieltä palatessa. Pinorekisteri (SP, Stack Pointer) osoittaa pinon "pinnalle" kullakin hetkellä.
 
-Keko on erityinen muistialue, josta ohjelma pystyy suoritusaikana varaamaan uusia muistialueita ja vapauttamaan niitä. Esimerkkikoneessa ohjelmakoodi on heti muistialueen alussa ja sen jälkeen on datasegmentti, johon on varattu tilaa kaikkialla ohjelmassa viitattavissa oleviin muuttujiin ja muihin tietorakenteisiin. Kekorekisteri (HP, Heap Pointer) osoittaa keon alkuun kullakin hetkellä. Todellisissa järjestelmissä on keko voi olla esimerkiksi ohjelman oman muistialueen lopussa, mutta esimerkkikoneessa sitä ei ole toteutettu.
+Keko on erityinen muistialue, josta ohjelma pystyy suoritusaikana varaamaan uusia muistialueita ja vapauttamaan niitä. Esimerkkikoneessa ohjelmakoodi on heti muistialueen alussa ja sen jälkeen on datasegmentti, johon on varattu tilaa kaikkialla ohjelmassa viitattavissa oleviin muuttujiin ja muihin tietorakenteisiin. Kekorekisteri (HP, Heap Pointer) osoittaa keon alkuun kullakin hetkellä. Todellisissa järjestelmissä keko voi olla esimerkiksi ohjelman oman muistialueen lopussa, mutta esimerkkikoneessa sitä ei ole toteutettu.
 
 Sekä pinon että keon koot vaihtelevat dynaamisesti ohjelman suoritusaikana. Joskus ohjelmointivirheen seurauksena näiden tarvitsema yhteinen muistitila voi loppua, mikä ilmenee siitä, että pinorekisterin arvo yrittää kasvaa kekorekisterin arvoa suuremmaksi. Käyttäjälle tämä ilmenee ohjelman "kaatumisena" mahdollisen _stack overflow_-virheilmoituksen kera.
 
