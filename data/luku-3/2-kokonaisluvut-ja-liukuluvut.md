@@ -55,7 +55,7 @@ Kahden komplementin esitysmuodolla on se hyvä ominaisuus, että nollia on vain 
               +0 = 0000 0000 = 0x00
 komplementoi       1111 1111
 lisää 1                   +1        (unohda yhteenlaskun viim. muistinumero)
-suuruus       -0 = 0000 0000 = 0x00 (+1:llä ja -1:llä on sama esitysmuoto)
+suuruus       -0 = 0000 0000 = 0x00 (+0:lla ja -0:lla on sama esitysmuoto)
 ```
 
 Huonona puolena on, että negatiivisia lukuja on nyt yksi enemmän kuin positiivisia lukuja. Tavun arvoalue on \[-128,-&nbsp;+127\]. Tämä otetaan huomioon aritmetiikkapiireissä automaattisesti.
