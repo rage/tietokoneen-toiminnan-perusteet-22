@@ -13,7 +13,7 @@ hidden: false
 Positiiviset kokonaisluvut ovat helppoja, koska niiden esitysmuoto on useimmiten (mutta ei aina!) niiden binääriarvo. Tiedon pituus pitää kuitenkin niissäkin ottaa aina huomioon, koska yleisesti ottaen vasemmanpuolimmainen bitti pitää varata etumerkille. Täten esimerkiksi 8-bittisen tavun suurin kokonaisluku on yleensä 0111&nbsp;1111 eli 127 eli 2<sup>7</sup>-1 eli 128-1.
 
 ### Kokonaislukujen etumerkkiin perustuva esitysmuoto
-Meille ihmisille luontevin tapa esittää kokonaisluvut on käyttää etumerkkiä, jolloin vasemmanpuolimmainen (eniten merkitsevä) bitti on positiivisille luvuille 0 ja negatiivisille 1. Esimerkiksi, +57 ja -57 ovat tavuina 0x39 ja 0x95, sekä 32-bittisinä sanoina 0x00000039 ja 0x80000039.
+Meille ihmisille luontevin tapa esittää kokonaisluvut on käyttää etumerkkiä, jolloin vasemmanpuolimmainen (eniten merkitsevä) bitti on positiivisille luvuille 0 ja negatiivisille 1. Esimerkiksi, +57 ja -57 ovat tavuina 0x39 ja 0xB9, sekä 32-bittisinä sanoina 0x00000039 ja 0x80000039.
 
 ```
 +57 = 0011 1001 = 0x39 (tavuna)   +57 = 0x 00 00 00 39 (32-bittisenä sanana)
