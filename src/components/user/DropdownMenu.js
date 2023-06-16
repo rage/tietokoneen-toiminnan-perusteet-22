@@ -20,7 +20,7 @@ const DropdownMenu = ({ selectedVariant, setSelectedVariant }) => {
     setLabelWidth(ReactDOM.findDOMNode(inputLabelRef.current).offsetWidth)
   })
 
-  const handleChange = event => {
+  const handleChange = (event) => {
     setSelectedVariant(event.target.value)
   }
 

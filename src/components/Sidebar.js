@@ -30,7 +30,7 @@ const SidebarContainer = styled.div`
   flex-direction: column;
   background-color: white;
 
-  ${props =>
+  ${(props) =>
     !props.mobileMenuOpen &&
     `
       display: none;
@@ -133,7 +133,7 @@ const MobileWrapper = styled.div`
   }
 `
 
-const MobileWrapperOrFragment = props => {
+const MobileWrapperOrFragment = (props) => {
   if (props.mobileMenuOpen) {
     return <MobileWrapper {...props} />
   }
@@ -143,10 +143,11 @@ const MobileWrapperOrFragment = props => {
 class Sidebar extends React.Component {
   render() {
     let edges =
-      this.props.data?.allMarkdownRemark?.edges.map(o => o.node?.frontmatter) ||
-      []
+      this.props.data?.allMarkdownRemark?.edges.map(
+        (o) => o.node?.frontmatter,
+      ) || []
     if (process.env.NODE_ENV === "production") {
-      edges = edges.filter(o => !o.hidden)
+      edges = edges.filter((o) => !o.hidden)
     }
     edges.sort((a, b) =>
       a.title.localeCompare(b.title, undefined, {
@@ -212,10 +213,10 @@ const query = graphql`
   }
 `
 
-const SidebarWithData = props => (
+const SidebarWithData = (props) => (
   <StaticQuery
     query={query}
-    render={data => <Sidebar data={data} {...props} />}
+    render={(data) => <Sidebar data={data} {...props} />}
   />
 )
 

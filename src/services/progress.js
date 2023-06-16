@@ -13,7 +13,7 @@ export async function fetchProgress() {
   zip(serviceIdentifiers, progressesCollection).forEach(
     ([identifier, progresses]) => {
       console.log(JSON.stringify(progresses))
-      progresses.forEach(progressEntry => {
+      progresses.forEach((progressEntry) => {
         if (!progressByGroup[progressEntry.group]) {
           progressByGroup[progressEntry.group] = {}
         }
@@ -23,7 +23,7 @@ export async function fetchProgress() {
   )
   const toBeDeleted = []
 
-  toBeDeleted.forEach(o => {
+  toBeDeleted.forEach((o) => {
     delete progressByGroup[o]
   })
   return progressByGroup
