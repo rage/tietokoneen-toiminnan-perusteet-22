@@ -4,6 +4,15 @@ hidden: false
 information_page: true
 ---
 
+<text-box variant="hint" name="Huomio">
+
+<notice>Huomaa, että tämä on vanha kurssisivu.</notice>
+
+</br>
+
+<b>Tietokoneen toiminnan perusteet (2 op) MOOC-kurssista ei enää myönnetä opintopisteitä. Voit kuitenkin edelleen käyttää kurssimateriaalia ja tehdä tehtäviä itsenäisesti omaksi iloksesi. Jos etsit tapaa suorittaa Helsingin yliopiston Tietokoneen toiminta (5 op) -kurssin, lue lisää täältä [Tietokoneen toiminta 5 op](https://studies.helsinki.fi/kurssit/opintojakso/otm-70c80428-00d1-4a65-ad9c-a716cd49c3a8/TKT10005)</b>
+
+</text-box>
 
 Tietokoneen toiminnan perusteet on kaikille avoin ja ilmainen verkkokurssi. Kurssilla perehdytään tietokoneen perustoimintoihin. Siinä esitellään myös käyttöjärjestelmän toiminta tietokonelaitteiston ja ohjelmiston välissä.
 
