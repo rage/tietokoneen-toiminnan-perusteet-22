@@ -287,7 +287,7 @@ C-kieli               konekieli
 
 x = sum(y, z);        push  sp, y    ; laita parametrin y arvo pinoon
                       push  sp, z    ; laita parametrin z arvo pinoon
-                      call  sp, sum  ; kutsu fuktiota Sum
+                      call  sp, sum  ; kutsu funktiota Sum
                       pop   sp, r1   ; ota funktion paluuarvo pinosta
                       store r1, x    ; talleta paluuarvo muuttujan x arvoksi
 ```
